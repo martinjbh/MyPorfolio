@@ -1,0 +1,67 @@
+.back-img{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    border-radius: 2em;
+    background-color: rgb(39, 37, 37);
+    
+}
+.in-img{
+    top: 25px;
+    left: 38px;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    border-radius: 2em;
+    background-image: url(./iglesia.jpg);
+    background-size: cover;
+    
+}
+.in-img:hover{
+    top: 15px;
+    left: 28px;
+
+}
+.about-me{
+    position: absolute;
+    margin-left: 378px;
+    width: 500px;
+    font-size: 18px;
+}
+.back-img2{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    border-radius: 2em;
+    background-color: rgb(39, 37, 37);
+    left: 802px;
+    top: 343px;
+}
+
+.in-img2{
+    left: 773px;
+    top: 367px;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    border-radius: 2em;
+    background-image: url(./pasillo-arabe.jpg);
+    background-size: cover;
+    
+}
+.in-img2:hover{
+
+    left: 787px;
+    top: 355px;
+
+}
+
+.about-me2{
+    width: 500px;
+    font-size: 18px;
+    left: 213px;
+    top: 380px;
+    position: absolute;
+}
+
+

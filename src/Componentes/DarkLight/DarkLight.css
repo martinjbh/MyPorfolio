@@ -1,0 +1,36 @@
+.grey-cirlce {
+    background-color: gray;
+    width: 20px;
+    height: 20px;
+    border-radius: 50em;
+    position: absolute;
+    cursor: pointer;
+    
+    top: 0px;
+}
+
+.t {
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1pz solid #999;
+   
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-icon {
+    width: 19px;
+    height: 19px;
+}
+
+.right{
+    right: 9px;
+}
+.left{
+    left:0;
+}
+

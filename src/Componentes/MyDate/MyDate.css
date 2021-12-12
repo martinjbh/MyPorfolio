@@ -1,0 +1,18 @@
+.content{
+    position: absolute;
+    left: 7%;
+    top: 15%;
+    width: 700PX;
+    font-family: -webkit-pictograph;
+}
+.content-myname{
+    font-size: 295%;
+    margin-left: 10%;
+    
+}
+
+.content-hello{
+    font-size: 216%;
+    
+}
+    

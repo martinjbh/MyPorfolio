@@ -1,0 +1,65 @@
+.footer {
+    position: absolute;
+    top: 250%;
+    left: 530px;
+    margin-bottom: 5%;
+     padding-bottom:5% ; 
+}
+    
+
+
+.footer-input {
+    border: none;
+    height: 50px;
+    width: 73%;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+}
+
+.footer-textarea {
+    width: 380px;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+}
+
+.footer-button {
+    position: absolute;
+    left: 2px;
+    top: 320px;
+    
+}
+.const-list{
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    text-decoration: none;
+}
+
+.list {
+    right: 124%;
+    top: 52px;
+    position: absolute;
+    width: 7%;
+    height: 208px;
+}
+.list-email{
+    background: url(./img/gmail.png);
+    background-size: cover;
+}
+.list-guithub{
+    background: url(./img/github.png);
+    background-size: cover;
+    top:60px
+}
+.list-linkedin{
+    background: url(./img/linkedin.png);
+    background-size: cover;
+    top:120px
+}
+
+@media (min-height: 1000px){
+    .footer{
+        top: 190%;
+    }
+} 

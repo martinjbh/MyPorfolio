@@ -1,0 +1,28 @@
+.color-back{
+    position: absolute;
+    clip-path: polygon(100% 0, 73% 44%, 97% 76%, 55% 95%, 41% 36%);
+    /* background: -webkit-linear-gradient(left, rgb(111, 197, 31), #59b256); */
+    background-color:#59b256;
+    width:1375px;
+    height: 100%;
+    z-index: -1;
+  
+    
+}
+.color-back2{
+    position: absolute;
+    clip-path: polygon(11% 54%, 7% 75%, 20% 89%, 0 100%, 0 69%);
+    background-color:#59b256;
+    /* background: -webkit-linear-gradient(left,#59b256, rgba(28, 31, 28, 0.438)); */
+    width:1200px;
+    height: 100%;
+    font-size: cover;
+    left: 15px;
+    z-index: -1;
+}
+.div-move{
+    position: absolute;
+    left: 22%;
+    top: 50%;
+}
+
