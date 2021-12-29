@@ -1,34 +1,35 @@
-.grey-cirlce {
+.grey-cirlce1 {
     background-color: gray;
     width: 20px;
     height: 20px;
     border-radius: 50em;
     position: absolute;
     cursor: pointer;
-    
+
     top: 0px;
 }
 
-.t {
+.t1 {
     width: 50px;
-    height: 25px;
+    height: 20px;
     border-radius: 20px;
     border: 1pz solid #999;
     z-index:2;
     position: fixed;
     top: 10px;
-    right: 10px;
+    right: 70px;
     align-items: center;
     justify-content: center;
 }
 
-.t-icon {
+.t-icon1 {
     width: 19px;
     height: 19px;
+    
 }
 
 .light{
-    right: 9px;
+    right: 11px;
 }
 .dark{
     left:0;

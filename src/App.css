@@ -18,6 +18,13 @@ body{
     top: 117%;
     left: 9%;
 }
+.light-mode{
+
+}
+.dark-mode{
+    background: rgb(49, 47, 47);
+    color: blanchedalmond;
+}
 
 
 

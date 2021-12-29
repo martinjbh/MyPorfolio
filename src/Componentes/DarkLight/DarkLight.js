@@ -9,16 +9,24 @@ import { useState } from "react";
 
 
 const DarkLight =(props)=>{
-    const [clase,setClase]=useState("right")
+    const [clase,setClase]=useState("light")
 
     const claseCambio=()=>{
-        if (clase=="right"){
+        
+        if (clase=="light"){
+document.body.classList.add("dark-mode")
+
+           
             return(
-                setClase("left")
+                
+                setClase("dark")
+                
             )
         }
         else{
-            setClase("right")}
+            document.body.classList.remove("dark-mode")
+           
+            setClase("light")}
 
 
     }
@@ -32,7 +40,7 @@ return(
 <div className="t">
     <img src={Sun} className="t-icon "/>
     <img src={moon} className="t-icon"/>
-    <button className={`grey-cirlce ${clase}`} onClick={claseCambio}></button>
+    <button className={`grey-cirlce ${clase}`} onClick={claseCambio} ></button>
 
   
 </div>
