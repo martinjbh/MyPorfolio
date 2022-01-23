@@ -5,20 +5,25 @@ import español from "../Traductor/espanol.png";
 import { useState } from "react";
 
 const Traductor = (props) => {
-    const [clase, setClase] = useState("light")
+    const [clase, setClase] = useState("ingles")
 
     const claseCambio = () => {
 
-        if (clase == "light") {
-            document.body.classList.add("dark-mode")
+
+        
+        if (clase == "ingles") {
+            document.body.classList.add()
 
             return (
-                setClase("dark")
+                setClase("español"),
+                props.cambiarIdioma(true)
             )
+
         }
         else {
-            document.body.classList.remove("dark-mode")
-            setClase("light")
+            document.body.classList.remove()
+            setClase("ingles")
+            props.cambiarIdioma(false)
         }
     }
     console.log(clase)

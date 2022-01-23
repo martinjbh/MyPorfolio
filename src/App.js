@@ -12,20 +12,31 @@ import {
   Link
 } from "react-router-dom";
 import Traductor from './Componentes/Traductor/Traductor';
+import data2 from './Componentes/Traducciones/Traducciones';
 
 
 
 
 function App() {
-  const[darkMode,setDarkMode]=useState(false)
+  const[español,setEspañol]=useState(false)
+  const[ingles,setIngles]=useState(false)
+
+const cambiarIdioma=(booleano)=>{
+  setEspañol(booleano)
+  setIngles(!booleano)
+
+}
+console.log(data2.es.frontTop)
+
+
   return (
     <Router>
       <Switch>
         <Route path="/" exact >
-          <Traductor cls="mover"/>
+          <Traductor cls="mover" cambiarIdioma={cambiarIdioma}/>
           <DarkLight /> 
-          <FrontTop />
-          <FrontMid cls="Container-img"/>
+          <FrontTop  español={español} ingles={ingles}/>
+          <FrontMid cls="Container-img"español={español}  ingles={ingles}/>
           <Footer/>
 
         </Route>

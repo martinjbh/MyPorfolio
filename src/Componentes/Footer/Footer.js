@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="footer">
             <ul className="list">
                 <a className="list-email const-list" href="mailto:barreiromartinj@gmail.com"></a>
-                <a className="list-guithub const-list" href="https://github.com/martinjbh"></a>
+                <a className="list-guithub const-list" href="https://github.com/martinjbh?tab=repositories"></a>
                 <a className="list-linkedin const-list" href="https://www.linkedin.com/in/mart%C3%ADn-barreiro-130025224/"></a>
 
             </ul>
