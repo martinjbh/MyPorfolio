@@ -15,7 +15,12 @@ const FrontMid = (props) => {
 
                 {props.español && <div className="about-me">
                     <h1>Sobre mi</h1>
-                    <p> Cosas sobre mi intereses, hobbies, tecnologias</p>
+                    <p>Mi nombre es martin soy desarrollador web y android,
+                        soy un entusiasta en la tecnologia mi pasion y mis ganas 
+                        son una excelente herramienta de aprendizaje personal,
+                        posea grandes conocimientos en tecnologias como reacj js, react native.
+
+                    </p>
 
                 </div>}
                 {props.ingles && <div className="about-me">
@@ -38,7 +43,7 @@ const FrontMid = (props) => {
                 {props.español && <div className="about-me2">
                     <h1>Mis Objetivos</h1>
                     <p>
-                        Mis objetios son desarrollarme como programador.
+                        Mi objetivo es desarrollarme cada vez mas en el hambiente de la tecnologia.
                     </p>
                 </div>}
 

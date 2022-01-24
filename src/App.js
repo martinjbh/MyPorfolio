@@ -19,7 +19,7 @@ import data2 from './Componentes/Traducciones/Traducciones';
 
 function App() {
   const[español,setEspañol]=useState(false)
-  const[ingles,setIngles]=useState(false)
+  const[ingles,setIngles]=useState(true)
 
 const cambiarIdioma=(booleano)=>{
   setEspañol(booleano)
@@ -38,6 +38,7 @@ console.log(data2.es.frontTop)
           <FrontTop  español={español} ingles={ingles}/>
           <FrontMid cls="Container-img"español={español}  ingles={ingles}/>
           <Footer/>
+
 
         </Route>
 
